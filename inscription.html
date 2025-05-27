@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <h2>Le meilleur de la gastronomie à Lyon</h2>
+      <ul>
+        <li><a href="index.html#inscription">Inscription</a></li>
+        <li><a href="index.html#reseauxSociaux">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="formulaireInscription">
+        <h1>INSCRIPTION CONCOURS CHEF DE CUISINE</h1>
+
+        <form action="" method="get">
+          <label for="nom">Nom</label><br />
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="Insérer nom"
+            required
+          /><br />
+
+          <label for="prenom">Prénom</label><br />
+          <input
+            type="text"
+            id="prenom"
+            name="prenom"
+            placeholder="Insérer prénom"
+            required
+          /><br />
+
+          <label for="mail">Mail</label><br />
+          <input
+            type="mail"
+            id="mail"
+            name="mail"
+            placeholder="Insérer mail"
+            required
+          /><br />
+
+          <label for="spécialité">Spécialité</label><br />
+          <select name="spécialité" id="spécialité">
+            <option disabled selected>
+              --Veuillez choisir votre spécialité--
+            </option>
+            <option value="francaise">Cuisine française</option>
+            <option value="espagnole">Cuisine espagnole</option>
+            <option value="portugaise">Cuisine portugaise</option>
+            <option value="brésilienne">Cuisine brésilienne</option>
+            <option value="japonaise">Cuisine japonaise</option>
+            <option value="chinoise">Cuisine chinoise</option>
+            <option value="thaïlandaise">Cuisine thaïlandaise</option>
+            <option value="libanaise ">Cuisine libanaise</option>
+            <option value="marocaine">Cuisine marocaine</option>
+            <option value="indienne">Cuisine indienne</option>
+            <option value="africaine">Cuisine africaine</option>
+            <option value="mexicaine">Cuisine mexicaine</option>
+            <option value="végétarienne">Cuisine végétarienne</option>
+            <option value="végétalienne">Cuisine végétalienne</option>
+            <option value="autre">Autre spécialité</option></select
+          ><br />
+
+          <label for="présentation">Brève préesentation:</label><br />
+          <textarea
+            rows="7"
+            cols="70"
+            name="commentaire"
+            id="commentaire"
+            placeholder="Insérér commentaire"
+          ></textarea>
+        </form>
+      </section>
+
+      <section id="imageChef">
+        <img
+          src="css\images\platting-4282016_1920.jpg"
+          alt="imageChef"
+          width="300"
+        />
+      </section>
+    </main>
+  </body>
+</html>
