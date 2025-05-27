@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #f5f1fe;
+  color: black;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+}
+
+nav > ul > li > a {
+  display: inline;
+  padding-inline: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul {
+  padding-inline-start: 0;
+}
+
+li {
+  display: inline;
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  display: block;
+  background-color: #f5f1fe;
+}
+
+video {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  max-width: min-content;
+}
+
+#programmation {
+  background-color: #ea3bde;
+}
+
+#inscription {
+  background-color: #5566d5;
+}
+
+footer {
+  background: #f5f1fe;
+  padding: 30px 10px 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#buttoninscription {
+   border:none;
+  color: white;
+  padding: 15px 32px;
+  margin: 30px 170px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: white; 
+  color: black; 
+  background-color: rgb(219, 207, 204);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#buttoninscription:hover {
+    background-color:#ea3bde;
+    color: white;
+
+  }
+
+  #buttonformulaire {
+     border:none;
+  color: white;
+  padding: 15px 32px;
+  margin: 30px 170px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: white; 
+  color: black; 
+  background-color: rgb(219, 207, 204);
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+
+ #formulaireInscription {
+  background-color: white;
+  text-align: center;
+display: block;
+margin: 20%;
+border: 2px solid white;
+border-radius: 10px;
+padding: 2%;
+ }
+
+#backgroundformulaire {
+   background-color: #81e888;
+ }
+
