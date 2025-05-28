@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inscription</title>
-    <link rel="stylesheet" href="./css/style.css" />
+  
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+      <link rel="stylesheet" href="./css/style.css" />
+       <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
       integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
@@ -13,22 +20,24 @@
     />
   </head>
   <body>
-     <nav>
-
-      <img src="css\images\logoGastronomie-removebg-preview.png" alt="logo" width="300">
+    <nav>
+      <img
+        src="css\images\logoGastronomie-removebg-preview.png"
+        alt="logo"
+        width="300"
+      />
       <h2>Le meilleur de la gastronomie à Lyon</h2>
       <ul>
         <li><a href="index.html#inscription">Inscription</a></li>
         <li><a href="index.html#reseauxSociaux">Contact</a></li>
       </ul>
     </nav>
-
     <main id="backgroundformulaire">
-      
       <section id="formulaireInscription">
-        <h1>INSCRIPTION CONCOURS CHEF DE CUISINE</h1>
-
-        <form action="" method="get">
+        
+    
+        <form action="" method="get" id="formulaire">
+        <h3>INSCRIPTION CONCOURS CHEF DE CUISINE</h3>
           <label for="nom">Nom</label><br />
           <input
             type="text"
@@ -81,27 +90,31 @@
           <label for="présentation">Brève préesentation:</label><br />
           <textarea
             rows="7"
-            cols="70"
+            cols="40"
             name="commentaire"
             id="commentaire"
             placeholder="Insérér commentaire"
-          ></textarea>
-        </form>
+          ></textarea>        
+          <button id="buttonformulaire">Soumettre</button>
 
-         <button id="buttonformulaire">Soumettre</button>
-     
-        <img
+
+        </form>
+          <img id="imageformulaire"
           src="css\images\platting-4282016_1920.jpg"
           alt="imageChef"
           width="300"
         />
       </section>
-       <footer>
-        <i class="bi bi-facebook"></i>
-      <i class="bi bi-instagram"></i>
-      <i class="bi bi-youtube"></i>
-    </footer> 
+
+      <footer id="reseauxSociaux">
+       <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+      </footer>
+
     </main>
+     <script src="./js/bootstrap.js"></script>
   </body>
-  <script src="./css/bootstrap.css"></script>
+ 
+ 
 </html>
