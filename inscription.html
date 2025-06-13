@@ -21,15 +21,16 @@
   </head>
   <body>
     <nav>
-      <img
+        <a href="index.html"><img
         src="css\images\logoGastronomie-removebg-preview.png"
         alt="logo"
         width="300"
-      />
-      <h2>Le meilleur de la gastronomie à Lyon</h2>
+      /></a>
+
+       <h2 id="slogan"><strong>Le meilleur de la gastronomie à Lyon</strong></h2>
       <ul>
         <li><a href="index.html#inscription">Inscription</a></li>
-        <li><a href="index.html#reseauxSociaux">Contact</a></li>
+       
       </ul>
     </nav>
     <main id="backgroundformulaire">
@@ -37,15 +38,17 @@
         
     
         <form action="" method="get" id="formulaire">
-        <h3>INSCRIPTION CONCOURS CHEF DE CUISINE</h3>
+        <h3 id="inscriptionChef">INSCRIPTION CONCOURS CHEF DE CUISINE</h3>
           <label for="nom">Nom</label><br />
           <input
             type="text"
             id="nom"
             name="nom"
             placeholder="Insérer nom"
-            required
+            
           /><br />
+
+      
 
           <label for="prenom">Prénom</label><br />
           <input
@@ -53,8 +56,10 @@
             id="prenom"
             name="prenom"
             placeholder="Insérer prénom"
-            required
+            
           /><br />
+
+    
 
           <label for="mail">Mail</label><br />
           <input
@@ -62,8 +67,10 @@
             id="mail"
             name="mail"
             placeholder="Insérer mail"
-            required
+            
           /><br />
+
+           <p id="messageMail"></p>
 
           <label for="spécialité">Spécialité</label><br />
           <select name="spécialité" id="spécialité">
@@ -87,7 +94,7 @@
             <option value="autre">Autre spécialité</option></select
           ><br />
 
-          <label for="présentation">Brève préesentation:</label><br />
+          <label for="présentation">Brève présentation:</label><br />
           <textarea
             rows="7"
             cols="40"
@@ -95,7 +102,7 @@
             id="commentaire"
             placeholder="Insérér commentaire"
           ></textarea>        
-          <button id="buttonformulaire">Soumettre</button>
+          <button id="buttonformulaire" class="buttonformulaire" type="submit">Soumettre</button>
 
 
         </form>
@@ -107,13 +114,14 @@
       </section>
 
       <footer id="reseauxSociaux">
-       <i class="bi bi-facebook"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-youtube"></i>
+       <a href="https://www.facebook.com/?locale=fr_FR"><i class="bi bi-facebook"></i></a>
+       <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a> 
+        <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
       </footer>
 
     </main>
      <script src="./js/bootstrap.js"></script>
+     <script src="./script.js"></script>
   </body>
  
  
