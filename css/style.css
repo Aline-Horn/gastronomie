@@ -6,7 +6,7 @@ body {
   margin: 0;
   background-color: #f1f1f1;
   color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: medium;
   line-height: 1.5;
   margin: 0;
@@ -19,16 +19,22 @@ nav {
   align-items: center;
   padding: 10px 20px;
   background: #f5f1fe;
+ 
 }
 
 nav li a:hover {
-  color: #ea3bde;
+  color:  #D54F56;
 }
 
 nav h2 {
   margin: 0 20px;
   text-align: center;
   color: black;
+}
+
+#slogan {
+color: #D54F56;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav ul {
@@ -44,7 +50,7 @@ nav > ul > li > a {
   display: inline;
   padding-inline: 10px;
   text-decoration: none;
-  color: black;
+   color: #946F5A;
   font-weight: bold;
 }
 
@@ -68,7 +74,7 @@ video {
 }
 
 #programmation {
-  background-color: #b137a9;
+  background-color: #D54F56;
   color: #f5f1fe;
 }
 
@@ -80,6 +86,12 @@ video {
   align-items: flex-start;
 
   flex-wrap: wrap;
+}
+
+#reseauxSociaux a i {
+  font-size: 2rem; 
+  margin: 0 10px;
+  color:black;
 }
 
 footer {
@@ -123,15 +135,13 @@ h2 {
   display: inline-block;
   font-size: 20px;
   border-radius: 8px;
-  background-color: white;
-  color: black;
   background-color: rgb(219, 207, 204);
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
 #buttoninscription:hover {
-  background-color: #ea3bde;
+  background-color: #D54F56;
   color: white;
 }
 
@@ -156,10 +166,10 @@ h2 {
   background-color: white;
   text-align: left;
   display: flex;
-  margin: 10px;
+  margin: 20px;
   border: 2px solid white;
   border-radius: 10px;
-  padding: 1%;
+  padding:1%;
   justify-content: space-around;
 }
 
@@ -171,6 +181,7 @@ h2 {
 #imageformulaire {
   flex-direction: column;
   width: 35%;
+   border-radius: 10px;
 }
 
 #backgroundformulaire {
