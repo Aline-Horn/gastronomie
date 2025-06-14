@@ -7,7 +7,7 @@ function validerEtSoumettre() {
 
   //Utilisation du regex pour validation; le champ de caractères doit contenir seulement des lettres.
 
-  const regexNomPrenom =  /^[A-Za-zÀ-ÿ\s'-]+$/;
+  const regexNomPrenom = /^[A-Za-zÀ-ÿ\s'-]+$/;
 
   //Utilisation du regex pour validation de mail (s'il y a @)
   const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -19,7 +19,9 @@ function validerEtSoumettre() {
     return;
   }
 
- if (!regexNomPrenom.test(nom)) {
+  //.test(nom) vérifie si la valeur de nom correspond à regexNom. Le signe ! annule le résultat, c'est-à-dire que si le nom ne correspond pas à regexNom, un alerte s'affiche.//
+
+  if (!regexNomPrenom.test(nom)) {
     alert("Le nom ne doit contenir que des lettres.");
     return;
   }
@@ -34,17 +36,17 @@ function validerEtSoumettre() {
     return;
   }
 
-//Message de merci pour l'envoie
+  //Message de merci pour l'envoie
   let h3 = document.getElementById("inscriptionChef");
   h3.innerHTML =
     "Merci pour votre inscription. Un e-mail de confirmation vous a été envoyé.";
 }
 
-//DOMContentLoaded garantit que le script soit exécuté après que tout le HTML de la page a été chargé.
 document.addEventListener("DOMContentLoaded", function () {
-  let buttoninscription = document.querySelector(".buttonformulaire");
-  buttoninscription.addEventListener("click", function (event) {
-    event.preventDefault();
+  //DOMContentLoaded garantit que le script soit exécuté après que tout l'HTML de la page soit chargé, cela empêche des erreurs. 
+  let buttoninscription = document.querySelector(".buttonformulaire"); //selectionne le button du formulaire.
+  buttoninscription.addEventListener("click", function (event) { //représente l'event précédent, c'est-à-dire que l'event est le click sur le bouton avec la classe .buttonformulaire.
+    event.preventDefault(); //empêche la soumission automatique du formulaire et le rechargement de la page sans la validation des champs.
     validerEtSoumettre(); // appeler la fonction
   });
 });
