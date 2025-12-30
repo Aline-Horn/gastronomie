@@ -18,32 +18,23 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <nav>
-     <a href="index.html"><img
-        src="css\images\logoGastronomie-removebg-preview.png"
-        alt="logo"
-        width="300"
-      /></a> 
-    
-       <h2 id="slogan"><strong>Le meilleur de la gastronomie à Lyon</strong></h2>
+      <a href="index.html"
+        ><img src="css\images\logo-gastronomie.png" alt="logo" width="150"
+      /></a>
+
+      <h2 id="slogan"><strong>Le meilleur de la gastronomie à Lyon</strong></h2>
       <ul>
-        
         <li><a href="./inscription.html">Inscription</a></li>
       </ul>
     </nav>
-
-    <header>
-      <video controls width="250">
-        <source
-          src="./css/images/8626277-sd_960_540_25fps.mp4"
-          type="video/webm"
-        />
-      </video>
-    </header>
 
     <section id="programmation">
       <div class="d-flex justify-content-center align-items-center m-3">
@@ -52,131 +43,158 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-6">
           <div
-            id="carouselExampleControlsNoTouching"
-            class="carousel slide"
+            id="carousel"
+            class="carousel slide carousel-programmation"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="2000">
+              <div class="carousel-item active" data-bs-interval="1800">
                 <img
                   src="css\images\bowl-1850039_1280.jpg"
-                  class="d-block w-75 mx-auto"
+                  class="d-block w-100"
                   alt="jour1"
-                  width="300"
                 />
-                <legend class="p-2 text-center font-weight-light" style="font-size: 1.2rem;">
-                  <h3>
-                    VENDREDI 12 Saveurs Locales et Ouverture Officielle</h3>
-                    <p><em>Thème : « Notre terre, notre table »</em></p>
-                    <ul class="text-left">
-                 <li>10h00 : Ouverture officielle avec marché des producteurs
-                  locaux </li> <li>11h00 : Atelier de pains artisanaux</li>  <li>14h00 : Table ronde
-                  – « Cuisine et mémoire affective » 15h30 : Démonstration
-                  culinaire : plat traditionnel local avec un chef invité</li> <li>17h00
-                  : Dégustation de fromages et vins de la région </li>
-                </ul>
+                <legend
+                  class="p-2 text-center font-weight-light"
+                  style="font-size: 1.2rem"
+                >
+                  <h3>VENDREDI 12 Saveurs Locales et Ouverture Officielle</h3>
+                  <p><em>Thème : « Notre terre, notre table »</em></p>
+                  <ul class="text-start">
+                    <li>
+                      10h00 : Ouverture officielle avec marché des producteurs
+                      locaux
+                    </li>
+                    <li>11h00 : Atelier de pains artisanaux</li>
+                    <li>
+                      14h00 : Table ronde - « Cuisine et mémoire affective »
+                    </li>
+                    <li>
+                      15h30 : Démonstration culinaire : plat traditionnel local
+                      avec un chef invité
+                    </li>
+                    <li>
+                      17h00 : Dégustation de fromages et vins de la région
+                    </li>
+                  </ul>
                 </legend>
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item" data-bs-interval="1800">
                 <img
                   src="css\images\pexels-bertellifotografia-13871278.jpg"
-                  class="d-block w-75 mx-auto"
+                  class="d-block w-100"
                   alt="jour2"
-                  width="300"
                 />
-                <legend class="p-2 text-center font-weight-light" style="font-size: 1.2rem;">
-                  <h3>
-                    SAMEDI 13 – Saveurs du Monde </h3>
-                    <p><em>Thème : « Un voyage à travers
-                      les saveurs internationales »</em></p>
-                  
-                  10h30 : Atelier pour enfants – Mini chef (pizza ou brigadeiro)
-                  11h30 : Démonstration culinaire : cuisine asiatique (sushi,
-                  ramen ou curry) 13h00 : Déjeuner thématique avec stands de
-                  cuisines du monde 15h00 : Conférence – « La gastronomie comme
-                  pont entre les cultures » 16h30 : Dégustation de cafés et
-                  douceurs internationales
+                <legend
+                  class="p-2 text-center font-weight-light"
+                  style="font-size: 1.2rem"
+                >
+                  <h3>SAMEDI 13 - Saveurs du Monde</h3>
+                  <p>
+                    <em
+                      >Thème : « Un voyage à travers les saveurs internationales
+                      »</em
+                    >
+                  </p>
+
+                  <ul class="text-start">
+                    <li>
+                      10h30 : Atelier pour enfants – Mini chef (pizza ou
+                      brigadeiro)
+                    </li>
+                    <li>
+                      11h30 : Démonstration culinaire – cuisine asiatique
+                      (sushi, ramen ou curry)
+                    </li>
+                    <li>
+                      13h00 : Déjeuner thématique avec stands de cuisines du
+                      monde
+                    </li>
+                    <li>
+                      15h00 : Conférence – « La gastronomie comme pont entre les
+                      cultures »
+                    </li>
+                    <li>
+                      16h30 : Dégustation de cafés et douceurs internationales
+                    </li>
+                  </ul>
                 </legend>
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item" data-bs-interval="1800">
                 <img
                   src="css\images\pexels-elevate-1267320.jpg"
-                  class="d-block w-75 mx-auto"
+                  class="d-block w-100"
                   alt="jour3"
-                  width="300"
                 />
-                <legend class="p-2 text-center font-weight-light" style="font-size: 1.2rem;">
-                  <h3>
-                    DIMANCHE 14 - Durabilité et Futur de l’Alimentation   </h3>
-                    <p><em>Thème : « Bien manger, mieux vivre »</em></p>
-                  
-                
-                  10h00 : Atelier pratique – Potager en petits espaces 11h30 :
-                  Atelier zéro déchet – cuisine anti-gaspillage 13h00 : Déjeuner
-                  communautaire (entrée + plat durable) 15h00 : Débat – « Une
-                  alimentation saine et accessible à tous » 17h00 : Concours :
-                  meilleure recette végétarienne de la région
+                <legend
+                  class="p-2 text-center font-weight-light"
+                  style="font-size: 1.2rem"
+                >
+                  <h3>DIMANCHE 14 - Durabilité et Futur de l'Alimentation</h3>
+                  <p><em>Thème : « Bien manger, mieux vivre »</em></p>
+                  <ul class="text-start">
+                    <li>
+                      10h00 : Atelier pratique – Potager en petits espaces
+                    </li>
+                    <li>
+                      11h30 : Atelier zéro déchet – cuisine anti-gaspillage
+                    </li>
+                    <li>
+                      13h00 : Déjeuner communautaire (entrée + plat durable)
+                    </li>
+                    <li>
+                      15h00 : Débat – « Une alimentation saine et accessible à
+                      tous »
+                    </li>
+                    <li>
+                      17h00 : Concours – meilleure recette végétarienne de la
+                      région
+                    </li>
+                  </ul>
                 </legend>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControlsNoTouching"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControlsNoTouching"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
     </section>
 
     <section id="inscription">
-      <h2>CONCOURS CHEF DE CUISINE</h2>
+      <div class="d-flex justify-content-center align-items-center m-3">
+        <h1 class="m-3">CONCOURS CHEF DE CUISINE</h1>
+      </div>
 
-      <div class="etapes">
-        <div class="etape">
-          <h3>ETAPE 1</h3>
-          <p class="descriptionetape">
-            <i class="bi bi-arrow-right-circle"></i>Faire l’inscription dans le
-            website du festival
-          </p>
-        </div>
-        <div class="etape">
-          <h3>ETAPE 2</h3>
-          <p class="descriptionetape">
-            <i class="bi bi-arrow-right-circle"></i>Résultat des chefs
-            sélectionnés
-          </p>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-6">
+          <div class="etapes">
+            <div class="etape">
+              <h3>ETAPE 1</h3>
+              <p class="description-etape">
+                <i class="bi bi-arrow-right-circle"></i> Faire l'inscription
+                dans le website du festival
+              </p>
+            </div>
+            <div class="etape">
+              <h3>ETAPE 2</h3>
+              <p class="description-etape">
+                <i class="bi bi-arrow-right-circle"></i> Résultat des chefs
+                sélectionnés
+              </p>
+            </div>
+            <a id="button-inscription" href="inscription.html"> Inscription </a>
+          </div>
         </div>
       </div>
-      <button id="buttonInscription"><a href="inscription.html">Inscription</button>
     </section>
 
-      <footer id="reseauxSociaux">
-       <a href="https://www.facebook.com/?locale=fr_FR"><i class="bi bi-facebook"></i></a>
-       <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a> 
-        <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
-      </footer>
+    <footer id="reseaux-sociaux">
+      <a href="https://www.facebook.com/?locale=fr_FR"
+        ><i class="bi bi-facebook"></i
+      ></a>
+      <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+    </footer>
 
     <script src="./js/bootstrap.js"></script>
-
   </body>
 </html>
