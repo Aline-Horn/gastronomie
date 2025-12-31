@@ -92,6 +92,11 @@ nav > ul > li > a {
   margin-bottom: 16px;
 }
 
+.carousel-description {
+  font-size: 1.2rem;
+  margin-top: 16px;
+}
+
 h1 {
   color: black;
 }
