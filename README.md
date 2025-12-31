@@ -1,4 +1,4 @@
-# 🎉 Projet : Festival de gastronomie à Lyon – « Fête de la gastronomie »
+# 🎉 Projet : « Festival de gastronomie à Lyon »
 
 ## 🍽️ Proposition générale du projet
 
@@ -24,10 +24,7 @@ Le site s’adresse :
 
 - **Barre de navigation** :
   - Lien vers l’inscription « Chef de cuisine »
-
-- **En-tête** :
-  - Vidéo de l’événement
-
+    
 - **Main** :
   - **Section 1** : Programmation (Jour 1, Jour 2, Jour 3)
     - Titres
@@ -53,15 +50,12 @@ Le site s’adresse :
 
 - **Fonctionnalités** :
   - Validation simple du formulaire
-  - Détails de la programmation intégrés
-  - Bouton d’envoi avec animation
-
-- **Message de confirmation** :
-  > « Votre inscription a été prise en compte. Un e-mail de confirmation vous a été envoyé. »
-
+  - Case d’acceptation des CGU
+  - Bouton “Soumettre” avec message de confirmation d’envoi
+    
 ---
 
-## 🛠️ Technologies suggérées
+## 🛠️ Technologies utilisées
 
 - HTML5 / CSS3
 - Bootstrap 4
