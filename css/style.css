@@ -277,6 +277,14 @@ footer {
     font-size: 0.9rem;
   }
 
+  #inscription h1 {
+    margin-bottom: 0.25rem !important; /* réduire l’espace sous le H1 */
+  }
+
+  #inscription .etapes {
+    margin-top: 0.25rem !important; /* reduire l’espace au-dessus des étapes */
+  }
+
   #button-inscription {
     align-self: center;
     font-size: 1rem;
