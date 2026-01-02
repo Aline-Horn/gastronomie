@@ -24,8 +24,8 @@ Le site s’adresse :
 
 - **Barre de navigation** :
   - Lien vers l’inscription « Chef de cuisine »
-    
 - **Main** :
+
   - **Section 1** : Programmation (Jour 1, Jour 2, Jour 3)
     - Titres
     - Horaires
@@ -41,18 +41,19 @@ Le site s’adresse :
 ### 📝 Page 2 – Formulaire d’inscription pour les chefs de cuisine
 
 - **Champs à remplir** :
+
   - Nom
   - Prénom
   - Spécialité culinaire
   - Pays d’origine
   - E-mail (avec message de validation)
-  - Brève présentation *(limite de 250 caractères)*
+  - Brève présentation _(limite de 250 caractères)_
 
 - **Fonctionnalités** :
   - Validation simple du formulaire
   - Case d’acceptation des CGU
   - Bouton “Soumettre” avec message de confirmation d’envoi
-    
+
 ---
 
 ## 🛠️ Technologies utilisées
